@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="DrawView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.90196078431372551" green="0.62745098039215685" blue="0.90196078431372551" alpha="1"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2576" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="50" y="686" width="69" height="30"/>
+                                <state key="normal" title="Simple"/>
+                                <connections>
+                                    <action selector="SimpleButton_Tapped:" destination="BYZ-38-t0r" id="20089" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2577" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="170" y="686" width="74" height="30"/>
+                                <state key="normal" title="Circle"/>
+                                <connections>
+                                    <action selector="CircleButton_Tapped:" destination="BYZ-38-t0r" id="20087" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2578" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="318" y="686" width="46" height="30"/>
+                                <state key="normal" title="Bar"/>
+                                <connections>
+                                    <action selector="BarButton_Tapped:" destination="BYZ-38-t0r" id="20086" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8473" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="160" y="406" width="94" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint id="5589" firstItem="2576" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30"/>
+                            <constraint id="5611" firstAttribute="bottomMargin" secondItem="2576" secondAttribute="bottom" constant="20"/>
+                            <constraint id="5741" firstAttribute="trailingMargin" secondItem="2578" secondAttribute="trailing" constant="30"/>
+                            <constraint id="5745" firstAttribute="bottomMargin" secondItem="2578" secondAttribute="bottom" constant="20"/>
+                            <constraint id="5894" firstAttribute="bottomMargin" secondItem="2577" secondAttribute="bottom" constant="20"/>
+                            <constraint id="16700" firstAttribute="trailingMargin" secondItem="2576" secondAttribute="trailing" constant="275"/>
+                            <constraint id="16808" firstAttribute="trailingMargin" secondItem="2577" secondAttribute="trailing" constant="150"/>
+                            <constraint id="16812" firstItem="2577" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="150"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="MainView" destination="8bC-Xf-vdC" id="name-outlet-8bC-Xf-vdC"/>
+                        <outlet property="lblMy" destination="8473" id="name-outlet-8473"/>
+                        <outlet property="SimpleButton" destination="2576" id="name-outlet-2576"/>
+                        <outlet property="CircleButton" destination="2577" id="name-outlet-2577"/>
+                        <outlet property="BarButton" destination="2578" id="name-outlet-2578"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>

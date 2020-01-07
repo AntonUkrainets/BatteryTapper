@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatteryTapper", "DzDraw_12_23_19\BatteryTapper.csproj", "{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Debug|iPhone.Deploy.0 = Debug|iPhone
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Debug|iPhoneSimulator.Deploy.0 = Debug|iPhoneSimulator
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Release|iPhone.Build.0 = Release|iPhone
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Release|iPhone.Deploy.0 = Release|iPhone
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{B971D8F9-DE7E-431A-83ED-5D3AC2F7478A}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BD7DBD3-6584-445C-946A-764A7D94D898}
+	EndGlobalSection
+EndGlobal
